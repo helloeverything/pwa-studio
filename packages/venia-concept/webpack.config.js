@@ -23,14 +23,15 @@ module.exports = async env => {
         special: {
             '@magento/peregrine': {
                 esModules: true
+                cssModules: true
+            },
+            '@magento/venia-ui': {
+                cssModules: true,
+                esModules: true,
+                graphQLQueries: true,
+                rootComponents: true,
+                upward: true
             }
-            // '@magento/venia-ui': {
-            //     cssModules: true,
-            //     esModules: true,
-            //     graphqlQueries: true,
-            //     rootComponents: true,
-            //     upward: true
-            // }
         },
         env
     });

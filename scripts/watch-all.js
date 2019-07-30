@@ -30,6 +30,7 @@ const restartDevServerOnChange = [
     'packages/venia-concept/.env',
     'packages/venia-concept/static/**/*',
     'packages/venia-concept/templates/**/*',
+    'packages/venia-concept/static/**/*',
     'yarn.lock'
 ];
 
